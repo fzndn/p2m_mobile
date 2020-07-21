@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "191455388418",
+    "firebase_url": "https://aplikasi-p2m.firebaseio.com",
+    "project_id": "aplikasi-p2m",
+    "storage_bucket": "aplikasi-p2m.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191455388418:android:fdf9c918b3f28f9177181b",
+        "android_client_info": {
+          "package_name": "id.ac.ui.eng.p2m_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191455388418-oec5dpehf2vlcpj4la5h3mnf20bo19vv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.ac.ui.eng.p2m_mobile",
+            "certificate_hash": "8cac42c450ad8fc0c7ca9760b6c8f6f20f2a7d00"
+          }
+        },
+        {
+          "client_id": "191455388418-gf5ct36v32hpv5ck610ktpa36goouuo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMmLxvycsomEebOtwfBEHat39XzCAATMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191455388418-gf5ct36v32hpv5ck610ktpa36goouuo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
