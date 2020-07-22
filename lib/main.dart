@@ -16,6 +16,10 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blue[900],
         appBarTheme: AppBarTheme(
           textTheme: TextTheme(headline6: AppBarTextStyle),
+        ),
+        textTheme: TextTheme(
+          headline6: HeadTextStyle,
+          bodyText2: BodyTextStyle,
         )
       ),
       home: LoginPage(),
