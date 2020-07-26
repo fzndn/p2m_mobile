@@ -71,7 +71,7 @@ Future <Null> signInFacebook() async {
   }
 }
 
-Future<Null> SignOutFacebook() async {
+Future<Null> signOutFacebook() async {
   await facebookSignIn.logOut();
   print('Logged out.');
 }
