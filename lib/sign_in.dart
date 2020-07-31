@@ -76,6 +76,15 @@ Future<Null> signOutFacebook() async {
   print('Logged out.');
 }
 
+Future<bool> isLogged() async {
+  try {
+    final FirebaseUser user = await _auth.currentUser();
+    return user != null;
+  } catch (e) {
+    return false;
+  }
+}
+
 /*
 void _showMessage(String message) {
   setState(() {

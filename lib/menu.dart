@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 
 import 'home.dart';
-import 'explore.dart';
 import 'profile.dart';
+import 'list_program.dart';
 
 PersistentTabController _controller = PersistentTabController(initialIndex: 0);
 
@@ -42,9 +42,9 @@ class Menu extends StatelessWidget {
 
   List<Widget> _buildScreens() {
     return [
-      HomePage(),
-      ExplorePage(),
-      ProfilePage(),
+      Home(),
+      ListProgram(),
+      Profile(),
     ];
   }
 

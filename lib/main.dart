@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'login_page.dart';
+import 'login.dart';
 import 'style.dart';
 
 void main() => runApp(MyApp());
@@ -22,7 +22,14 @@ class MyApp extends StatelessWidget {
           bodyText2: BodyTextStyle,
         )
       ),
-      home: LoginPage(),
+      /*
+      routes: <String, WidgetBuilder> {
+        '/' : (_) => new Login(),
+        '/beranda': (_) => new Home(),
+        '/profil' : (_) => new Profile(),
+      },
+       */
+      home: Login()
     );
   }
 }
