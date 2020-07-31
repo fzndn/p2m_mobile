@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../components/profile_photo.dart';
 import '../components/text_section.dart';
+import '../services/sign_in.dart';
 import '../theme/style.dart';
-import '../sign_in.dart';
 
 class Profile extends StatefulWidget {
   Profile({Key key}) : super(key: key);
