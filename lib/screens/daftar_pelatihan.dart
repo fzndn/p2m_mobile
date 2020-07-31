@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 
-import 'components/text_section.dart';
-import 'models/judul_pelatihan.dart';
-import 'screens/home.dart';
-import 'theme/style.dart';
+import '../components/text_section.dart';
+import '../models/judul_pelatihan.dart';
+import 'home.dart';
+import '../theme/style.dart';
 
 final GlobalKey<FormBuilderState> _fbKey = GlobalKey<FormBuilderState>();
 
