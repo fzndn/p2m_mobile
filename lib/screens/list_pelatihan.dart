@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 
-import 'models/judul_pelatihan.dart';
-import 'theme/style.dart';
-import 'detail_pelatihan.dart';
-import 'daftar_pelatihan.dart';
+import '../models/judul_pelatihan.dart';
+import '../theme/style.dart';
+import '../detail_pelatihan.dart';
+import '../daftar_pelatihan.dart';
 
 class ListPelatihan extends StatelessWidget {
   final String _idProgram;
