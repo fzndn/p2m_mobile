@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'models/judul_pelatihan.dart';
-import 'style.dart';
+import 'theme/style.dart';
 
 class DetailPelatihan extends StatelessWidget {
   final JudulPelatihan _judulPelatihan;

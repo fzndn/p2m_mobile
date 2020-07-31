@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'theme/style.dart';
 import 'profile_photo.dart';
 import 'sign_in.dart';
-import 'style.dart';
 import 'text_section.dart';
 
 class Profile extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'style.dart';
+import 'theme/style.dart';
 
 class TextSection extends StatelessWidget {
   final String _head;

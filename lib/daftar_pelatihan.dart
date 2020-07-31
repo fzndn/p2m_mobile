@@ -3,8 +3,8 @@ import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 
 import 'models/judul_pelatihan.dart';
+import 'theme/style.dart';
 import 'text_section.dart';
-import 'style.dart';
 import 'home.dart';
 
 final GlobalKey<FormBuilderState> _fbKey = GlobalKey<FormBuilderState>();
