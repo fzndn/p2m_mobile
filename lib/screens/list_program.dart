@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'models/program.dart';
-import 'theme/style.dart';
-import 'list_pelatihan.dart';
+import '../models/program.dart';
+import '../theme/style.dart';
+import '../list_pelatihan.dart';
 
 class ListProgram extends StatelessWidget {
   @override
