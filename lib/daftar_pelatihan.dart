@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
-import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 
 import 'components/text_section.dart';
 import 'models/judul_pelatihan.dart';
+import 'screens/home.dart';
 import 'theme/style.dart';
-import 'home.dart';
 
 final GlobalKey<FormBuilderState> _fbKey = GlobalKey<FormBuilderState>();
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 
-import 'home.dart';
+import 'screens/home.dart';
 import 'profile.dart';
 import 'list_program.dart';
 
